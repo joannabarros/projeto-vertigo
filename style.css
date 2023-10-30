@@ -12,6 +12,7 @@
 :root {
    --gray-800: #1E293B;
    --gray-600: #475569;
+   --purple: #7C3AED;
 }
 
 /* numero = 20 */
@@ -34,7 +35,6 @@ main {
 }
 
 .descricao {
-    border: 1px solid #f00;
     margin-bottom: 2.5rem;
 }
 
@@ -50,4 +50,31 @@ main {
     color: var(--gray-600);
 }
 
+.input-boxe {
+display: flex;
+flex-direction: colum;
+}
+
+.input-box div {
+    display: flex;
+    justify-content: space-betweent5;
+    align-items: center;
+}
+
+.login label{
+    font-size: 0.875rem;
+    color: var(--gray-800);
+    font-weight: 600;
+}
+
+.login a {
+    color: var(--purple);
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
 /* nome da cor,rgb,rgba,hex,hsl,hwb */
